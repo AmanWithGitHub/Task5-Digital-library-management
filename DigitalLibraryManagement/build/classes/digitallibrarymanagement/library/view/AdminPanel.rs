@@ -1,0 +1,1 @@
+digitallibrarymanagement.view.AdminPanel
