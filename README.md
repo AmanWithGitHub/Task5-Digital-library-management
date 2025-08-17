@@ -1,4 +1,4 @@
-📚 Digital Library Management System
+📚 Digital Library Management System 
 
 The Digital Library Management System is a comprehensive desktop application designed to streamline and automate the core functions of a library.
 Developed in Java (Swing) with a MySQL backend, the project follows a layered architectural approach, separating the user interface, business logic, and data storage. This makes the system scalable, reliable, and easy to maintain.
