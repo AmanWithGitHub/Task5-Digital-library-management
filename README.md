@@ -1,24 +1,63 @@
-The Digital Library Management System is a comprehensive desktop application designed to streamline and automate the core functions of a library. Developed in Java, the project follows a layered architectural approach, which means the user interface, business logic, and data storage are all organized into separate, interconnected parts. This clean structure makes the system reliable and easy to maintain.
+📚 Digital Library Management System
 
-At its heart, the application serves two primary types of users: administrators and regular members.
+The Digital Library Management System is a comprehensive desktop application designed to streamline and automate the core functions of a library.
+Developed in Java (Swing) with a MySQL backend, the project follows a layered architectural approach, separating the user interface, business logic, and data storage. This makes the system scalable, reliable, and easy to maintain.
 
-Core Functionalities
-Secure Authentication: The system begins with a secure login screen that validates user credentials. Based on a user's role, the application grants access to a personalized dashboard.
+🚀 Features
+🔑 Secure Authentication
 
-Administrator Dashboard: The administrator has complete control over the library's operations. Through an intuitive, tabbed interface, they can:
+Login screen with credential validation.
 
-Manage Books: Easily add new books to the catalog, update existing book details, and remove books no longer in circulation.
+Role-based access control (Administrator / Regular User).
 
-Manage Users: Handle all user accounts, including adding new members and modifying or removing existing ones.
+🛠️ Administrator Dashboard
 
-Manage Loans: Issue new book loans to users and process returns. This feature connects book and user data to track who has borrowed which book.
+Through an intuitive, tabbed interface, administrators can:
 
-Regular User Dashboard: A regular user's experience is focused on browsing and interacting with the library's collection. They have a streamlined interface to:
+Manage Books: Add, update, and remove books.
 
-View and Search Books: Browse the entire library catalog and search for specific books by title or author.
+Manage Users: Create, edit, and delete user accounts.
 
-View Personal Loans: See a list of all the books they have currently borrowed and their due dates.
+Manage Loans: Issue and return books, track borrowing history.
 
-The application's backend is powered by a MySQL database, which securely stores all the information about books, users, and loans. The user interface is built using Java Swing, providing a familiar and responsive graphical environment.
+👤 Regular User Dashboard
 
-This project successfully demonstrates a full-stack development capability, bringing together a robust database, a clean data access layer, and an interactive user interface to create a complete and practical solution for library management.
+A simplified interface for regular members:
+
+View & Search Books: Browse and search the catalog by title/author.
+
+View Personal Loans: Track borrowed books and due dates.
+
+🗄️ Technology Stack
+
+Programming Language: Java (Swing for UI)
+
+Database: MySQL
+
+Architecture: Layered (UI → Business Logic → Data Access)
+
+📂 Database Structure
+
+Books Table – Stores book details (title, author, availability).
+
+Users Table – Stores user credentials and roles (admin/member).
+
+Loans Table – Tracks issued/returned books.
+
+🎯 Key Highlights
+
+Full-stack desktop application.
+
+Clean separation of concerns.
+
+Secure role-based access.
+
+User-friendly and interactive GUI.
+
+📸 Screenshots (Optional)
+
+(Add screenshots of your login screen, admin dashboard, and user dashboard here for better presentation.)
+
+🏆 Conclusion
+
+The Digital Library Management System brings together a robust database, a clean data access layer, and an interactive Java Swing interface, creating a complete and practical solution for library management.
